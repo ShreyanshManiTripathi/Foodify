@@ -1,0 +1,226 @@
+.header{
+    display: flex;
+justify-content:space-between;
+border:1px solid black;
+/* position:absolute; */
+}
+
+.nav-items >ul {
+display:flex;
+list-style-type: none;
+flex-wrap: wrap;
+}
+
+.nav-items>ul>li{
+    padding:10px;
+    margin-right: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 0px;
+    background-color: #feb561;
+   
+    
+}
+
+.nav-items > ul > li:hover {
+    background-color: rgb(195, 209, 177);
+  }
+.logo{
+    width:100px;
+
+}
+
+.nav-items{
+    position:relative;
+}
+
+
+@media screen and (max-width: 180px) and (min-width: 114px) {
+
+
+#cuisine{
+    font-size:smaller;
+}
+
+    .header {
+
+        width:200vw;
+        display:block;
+      }
+  
+      .nav-items >ul {
+        display:block;
+        position:relative;
+        
+        }  
+      .card >img{
+        width: 100%;
+    }
+      .card{
+        border:1px solid black;
+        margin-top: 20px;
+        width:100px;
+        background-color: #eaddcd;
+    }
+
+    .restaurant-list{
+         
+        /* margin-right: 20px; */
+        margin-left: 40px;
+    }
+
+}
+
+/* @media screen and (max-width: 180px) and (min-width: 271px){
+
+    .header{
+        width:500vw;
+    }
+} */
+
+
+@media screen and (max-width: 480px) and (min-width: 180px)  {
+    .header {
+      background-color: lightgreen;
+      display:block;
+      /* max-width: 97.8vw; */
+    min-width:100vw;
+    }
+    .nav-items >ul {
+        display:block;
+        position:relative;
+        
+        }  
+        
+ 
+        .restaurant-list{
+         
+            margin-right: 20px;
+            margin-left: 40px;
+        }
+
+        .nav-items>ul>li{
+            padding:10px;
+            margin-top: 7px;
+        }
+        .card{
+            border:1px solid black;
+            margin-top: 20px;
+            width:200px;
+            background-color: #eaddcd;
+            box-shadow: 0px 0px 20px 0px;
+        }
+        
+       .card >img{
+            width: 100px;
+        }
+}
+
+@media screen and (max-width: 114px) and (min-width: 55px)  {
+    .nav-items >ul {
+        display:block;
+        position:relative;
+        }
+        .header {
+            /* background-color: lightgreen !important;  */
+            display:block;
+            width: 200vw !important;
+           
+          }
+    
+    .logo{
+        width:50px;
+    
+    }
+   .nav-items >ul >li{
+        width:30px;
+        margin-top: 10px;
+        background-color: #feb561;
+        
+    }
+
+   
+   .nav-items > ul > li:hover {
+        background-color: rgb(195, 209, 177);
+      }
+    .nav-items >ul {
+       
+        position:relative;
+        width:40px;
+       
+        }  
+        .card{
+            border:1px solid black;
+            width:200px;
+            background-color: #eaddcd;
+        }
+        
+        .card >img{
+            width: 100%;
+        }
+}
+
+
+@media only screen and (max-width: 4000px) and (min-width: 480px) {
+.card{
+    margin: 10px;
+    border:1px solid black;
+    width:200px;
+    background-color: #eaddcd;
+    border-radius: 25px;
+
+/* position:relative;
+left:3%; */
+
+}
+
+
+
+
+
+.card >img{
+    width: 100%;
+}
+
+
+.restaurant-list{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 60px;
+}
+}
+
+
+body{
+  
+background-color: #a08986;
+}
+
+
+.shimmerCard{
+    margin-top: 30px;
+    height: 250px;
+    width:200px;
+}
+
+.dropdown{
+    position: absolute;
+    left:200px;
+    top:50px;
+}
+
+.login{
+    padding:0 20px;
+    cursor:pointer;
+    background-color:chocolate;
+    border-radius: 10px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:medium
+}
+
+.login:hover {
+    background-color: rgb(195, 209, 177);
+  }
+
+  
